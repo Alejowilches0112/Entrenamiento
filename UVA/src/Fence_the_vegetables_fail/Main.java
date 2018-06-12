@@ -28,10 +28,7 @@ public class Main {
 				Xv[i]=t.nextInt();
 				Yv[i]=t.nextInt();
 			}
-			System.out.println(Arrays.toString(Xp));
-			System.out.println(Arrays.toString(Yp));
-			System.out.println(Arrays.toString(Xv));
-			System.out.println(Arrays.toString(Yv));
+			
 			
 		}
 	}
