@@ -7,10 +7,9 @@ import java.text.DecimalFormatSymbols;
 import java.util.Scanner;
 
 public class Main {
-
+	private static Scanner sc;
 	public static void main(String[] args) throws IOException {
-		// BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		Scanner sc = new Scanner(System.in);
+		 sc = new Scanner(System.in);
 		PrintWriter pw = new PrintWriter(System.out);
 		int[][] coordenadas;
 		double d;
@@ -21,7 +20,6 @@ public class Main {
 			coordenadas = new int[n][2];
 			for (int i = 0; i < coordenadas.length; i++) {
 				for (int j = 0; j < coordenadas[0].length; j++) {
-					// StringTokenizer tk = new StringTokenizer(l);
 					coordenadas[i][j] = sc.nextInt();
 				}
 			}
