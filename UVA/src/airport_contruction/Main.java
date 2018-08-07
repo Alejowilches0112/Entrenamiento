@@ -1,6 +1,6 @@
 package airport_contruction;
 
-import java.io.IOException;
+import java.io.IOException; 
 import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
@@ -42,7 +42,6 @@ public class Main {
 							distanciaL = d;
 						p++;
 					}
-
 				}
 				i++;
 			}
